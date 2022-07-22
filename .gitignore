@@ -31,3 +31,6 @@ bin
 bin.zip
 *.backup
 .gradle
+
+# only for this project
+.drafts
