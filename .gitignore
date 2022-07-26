@@ -34,3 +34,6 @@ bin.zip
 
 # only for this project
 .drafts
+
+# Ignore Gradle build output directory
+build
