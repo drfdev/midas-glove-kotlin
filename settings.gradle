@@ -18,3 +18,14 @@ project(':midas-glove-black-knife').projectDir = file('midas-glove-black-knife')
 project(':midas-glove-skeleton-key').projectDir = file('midas-glove-skeleton-key')
 project(':midas-glove-titan-fortress').projectDir = file('midas-glove-titan-fortress')
 project(':midas-glove-the-great-river').projectDir = file('midas-glove-the-great-river')
+
+// commons:
+include(':midas-glove-common')
+include(':midas-glove-common:common-api')
+include(':midas-glove-common:common-native-service')
+include(':midas-glove-common:common-model')
+
+project(':midas-glove-common').projectDir = file('midas-glove-common')
+project(':midas-glove-common:common-api').projectDir = file('midas-glove-common/common-api')
+project(':midas-glove-common:common-native-service').projectDir = file('midas-glove-common/common-native-service')
+project(':midas-glove-common:common-model').projectDir = file('midas-glove-common/common-model')
