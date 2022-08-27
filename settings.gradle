@@ -22,10 +22,16 @@ project(':midas-glove-the-great-river').projectDir = file('midas-glove-the-great
 // commons:
 include(':midas-glove-common')
 include(':midas-glove-common:common-api')
-include(':midas-glove-common:common-native-service')
 include(':midas-glove-common:common-model')
+include(':midas-glove-common:common-native-service')
+include(':midas-glove-common:common-native-model')
+include(':midas-glove-common:common-elysium-service')
+include(':midas-glove-common:common-elysium-model')
 
 project(':midas-glove-common').projectDir = file('midas-glove-common')
 project(':midas-glove-common:common-api').projectDir = file('midas-glove-common/common-api')
-project(':midas-glove-common:common-native-service').projectDir = file('midas-glove-common/common-native-service')
 project(':midas-glove-common:common-model').projectDir = file('midas-glove-common/common-model')
+project(':midas-glove-common:common-native-service').projectDir = file('midas-glove-common/common-native-service')
+project(':midas-glove-common:common-native-model').projectDir = file('midas-glove-common/common-native-model')
+project(':midas-glove-common:common-elysium-service').projectDir = file('midas-glove-common/common-elysium-service')
+project(':midas-glove-common:common-elysium-model').projectDir = file('midas-glove-common/common-elysium-model')
