@@ -35,3 +35,9 @@ project(':midas-glove-common:common-native-service').projectDir = file('midas-gl
 project(':midas-glove-common:common-native-model').projectDir = file('midas-glove-common/common-native-model')
 project(':midas-glove-common:common-elysium-service').projectDir = file('midas-glove-common/common-elysium-service')
 project(':midas-glove-common:common-elysium-model').projectDir = file('midas-glove-common/common-elysium-model')
+
+// Rainbow Unicorn:
+include(':midas-glove-rainbow-unicorn:trilean-model')
+
+project(':midas-glove-rainbow-unicorn:trilean-model').projectDir = file('midas-glove-rainbow-unicorn/trilean-model')
+
