@@ -41,3 +41,8 @@ include(':midas-glove-rainbow-unicorn:trilean-model')
 
 project(':midas-glove-rainbow-unicorn:trilean-model').projectDir = file('midas-glove-rainbow-unicorn/trilean-model')
 
+// Kitsune Spirit
+include(':midas-glove-kitsune-spirit:kitsune-data-pipes')
+
+project(':midas-glove-kitsune-spirit:kitsune-data-pipes').projectDir = file('midas-glove-kitsune-spirit/kitsune-data-pipes')
+
