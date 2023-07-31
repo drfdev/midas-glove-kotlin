@@ -1,0 +1,5 @@
+// midas-glove-kitsune-spirit - kitsune-data-advanced-pipes
+
+dependencies {
+    implementation project(":midas-glove-kitsune-spirit:kitsune-data-pipes")
+}
